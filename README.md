@@ -4,7 +4,7 @@ cordovaBackbone
 The basic setup for cordova (phonegap), based application. Could be used as a boilerplate for any cordova application which makes use of RequireJS and BackboneJS.
 
 ##Libraries used :
-1. RequireJS ( 2.1.6 )
+1. [RequireJS](http://requirejs.org/ "Title")( 2.1.6 )
 2. BackboneJS ( 1.0.0 )
 3. Lo-Dash ( 1.2.1 )
 4. Cordova ( 2.8.0 )( This is an Android Lib, for iOS add the iOS cordova lib. )
