@@ -14,6 +14,6 @@ Libs :
 There are two separate plugins for Cordova are used, just to know "how cordova plug-ins could be loaded".
 
 How its done:
-===============
+---------------
 
 First all the libraries are loaded except jQueryMobile. Once all the libraries are loaded, the defaults for jQueryMobile are configured. Then the first module loads jQueryMobile.
