@@ -15,5 +15,8 @@ There are two separate plugins for Cordova are used, just to know "how cordova p
 
 How its done:
 ---------------
-
+##loading
 First all the libraries are loaded except jQueryMobile. Once all the libraries are loaded, the defaults for jQueryMobile are configured. Then the first module loads jQueryMobile.
+##routing
+1. $.mobile.navigate( "#bar" );  // change the URL in location bar
+2. $.mobile.changePage( "#two"); // chagne the jquery mobile page
