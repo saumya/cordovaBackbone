@@ -1,7 +1,6 @@
 cordovaBackbone
 ===============
-
-The basic setup for cordova (phonegap), based application. Could be used as a boilerplate for any cordova application which makes use of RequireJS and BackboneJS.
+The basic setup for cordova (phonegap), based modular javascript application. Could be used as a boilerplate for any cordova application which makes use of RequireJS with/without BackboneJS.
 
 ##Libraries used :
 1. [RequireJS](http://requirejs.org/ "RequireJS")( 2.1.6 )
@@ -15,6 +14,8 @@ There are two separate plugins for Cordova are used, just to know "how cordova p
 
 How its done:
 ---------------
+This is my personal experimentation result, if any better way is available, please let me know.
+
 ##loading
 First all the libraries are loaded except jQueryMobile. Once all the libraries are loaded, the defaults for jQueryMobile are configured. Then the first module loads jQueryMobile.
 ##routing
